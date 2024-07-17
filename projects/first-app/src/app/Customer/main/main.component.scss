@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+  }
+  
+  th.mat-header-cell, td.mat-cell {
+    text-align: center;
+    border: 1px solid #CCC;
+    padding: 0 !important;
+}
+
+  .mat-header-cell {
+    background-color: #dfb80b; // Change the background color as needed
+    color: #333; // Change the text color as needed
+    font-weight: bold; // Change the font weight as needed
+    border: 1px solid #CCC;
+  }

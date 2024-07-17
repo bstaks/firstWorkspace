@@ -1,0 +1,25 @@
+<nav>
+  <ul>
+    <li><a routerLink="/">Home</a></li>
+    <li>
+      <a [routerLink]="['about']" routerLinkActive="router-link-active"
+        >About</a
+      >
+    </li>
+    <li class="dropdown">
+      <a [routerLink]="['product']" routerLinkActive="router-link-active"
+        >Products</a
+      >
+      <div class="dropdown-content">
+        <a href="#">Product 1</a>
+        <a href="#">Product 2</a>
+        <a href="#">Product 3</a>
+      </div>
+    </li>
+    <li>
+      <a [routerLink]="['contact']" routerLinkActive="router-link-active"
+        >Contact</a
+      >
+    </li>
+  </ul>
+</nav>
